@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Correct Project Structure",
+      "setup": "",
+      "run": "./.csse6400/bin/validate_structure.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 75
+    },
+    {
+      "name": "Clean Git Repository",
+      "setup": "",
+      "run": "./.csse6400/bin/clean_repository.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
