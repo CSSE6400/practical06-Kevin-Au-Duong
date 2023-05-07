@@ -32,3 +32,4 @@ resource "aws_security_group" "database" {
     ipv6_cidr_blocks = ["::/0"]
   }
 }
+
